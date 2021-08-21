@@ -1,6 +1,23 @@
 {
     "version": "0.1",
+    "ignorePaths": [
+        "package-lock.json"
+    ],
     "words": [
+        "commitlint",
+        "commitlintrc",
+        "editorconfig",
+        "gitlens",
+        "psmodulescaffolding",
         "pwsh"
+    ],
+    "ignoreWords": [
+        "coenraads",
+        "davidanson",
+        "eamodio",
+        "mikestead",
+        "oderwat",
+        "pkief",
+        "remotehub"
     ]
 }

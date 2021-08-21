@@ -14,17 +14,18 @@
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-vscode.powershell",
-		"eamodio.gitlens",
 		"aaron-bond.better-comments",
 		"coenraads.bracket-pair-colorizer-2",
-		"pkief.material-icon-theme",
-		"github.remotehub",
-		"streetsidesoftware.code-spell-checker",
+		"davidanson.vscode-markdownlint",
+		"eamodio.gitlens",
 		"editorconfig.editorconfig",
+		"github.remotehub",
 		"github.vscode-pull-request-github",
+		"ms-vscode.powershell",
 		"oderwat.indent-rainbow",
-		"davidanson.vscode-markdownlint"
+		"pkief.material-icon-theme",
+		"streetsidesoftware.code-spell-checker",
+		"mikestead.dotenv"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

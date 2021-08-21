@@ -1,0 +1,18 @@
+{
+  "name": "psmodulescaffolding",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonylea/PsModuleScaffolding.git"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
+  }
+}
