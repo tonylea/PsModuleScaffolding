@@ -9,6 +9,8 @@ module.exports = {
     "type-enum": [2, "always", typesEnum],
     "scope-case": [2, "always", ["camel-case"]],
     "scope-enum": [2, "always", scopesEnum],
-    "scope-empty": [0, "always"]
+    "scope-empty": [0, "always"],
+    "body-full-stop": [2, "always", "."],
+    "body-case": [2, "always", "sentence-case"]
   },
 };
