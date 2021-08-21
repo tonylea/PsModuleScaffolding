@@ -21,7 +21,7 @@ Describe "$ModuleName Manifest" {
     }
 
     It "has a valid guid" {
-        $ManifestHash.Guid | Should -Be '9a10b073-289a-4813-82a7-81ec95361a35'
+        $ManifestHash.Guid | Should -Be "9a10b073-289a-4813-82a7-81ec95361a35"
     }
 
     It "has a valid copyright" {
