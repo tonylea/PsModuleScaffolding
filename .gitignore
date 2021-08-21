@@ -127,6 +127,7 @@ dist
 
 .env
 report/
+ScriptAnalyzerResult.xml
 
 ###############################################
 # MacOS                                       #
