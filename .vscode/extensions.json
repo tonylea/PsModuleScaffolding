@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer-2",
+    "mikestead.dotenv",
+    "github.vscode-pull-request-github",
+    "github.remotehub"
+  ]
+}
