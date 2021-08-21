@@ -8,8 +8,10 @@
         "commitlintrc",
         "editorconfig",
         "gitlens",
+        "id",
         "psmodulescaffolding",
-        "pwsh"
+        "pwsh",
+        "runspace"
     ],
     "ignoreWords": [
         "coenraads",
