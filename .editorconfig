@@ -23,6 +23,10 @@ indent_size = 2
 [*.{json,yaml,yml}]
 indent_size = 2
 
+[.cspell.json]
+indent_size = 4
+insert_final_newline = false
+
 # Markdown
 [*.md]
 indent_size = 2
