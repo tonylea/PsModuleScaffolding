@@ -1,27 +1,28 @@
 {
-    "version": "0.1",
-    "ignorePaths": [
-        "package-lock.json"
-    ],
-    "words": [
-        "commitlint",
-        "commitlintrc",
-        "editorconfig",
-        "gitlens",
-        "id",
-        "psmodulescaffolding",
-        "pwsh",
-        "runspace"
-    ],
-    "ignoreWords": [
-        "coenraads",
-        "davidanson",
-        "eamodio",
-        "mikestead",
-        "oderwat",
-        "pkief",
-        "privatefunc",
-        "publicfunc",
-        "remotehub"
-    ]
+  "version": "0.1",
+  "ignorePaths": [
+    "package-lock.json"
+  ],
+  "words": [
+    "buisson",
+    "commitlint",
+    "commitlintrc",
+    "editorconfig",
+    "gitlens",
+    "id",
+    "psmodulescaffolding",
+    "pwsh",
+    "runspace"
+  ],
+  "ignoreWords": [
+    "coenraads",
+    "davidanson",
+    "eamodio",
+    "mikestead",
+    "oderwat",
+    "pkief",
+    "privatefunc",
+    "publicfunc",
+    "remotehub"
+  ]
 }
