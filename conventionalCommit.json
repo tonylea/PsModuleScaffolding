@@ -30,5 +30,10 @@
     "test": {
       "description": "Changes which add missing tests or correct existing tests"
     }
+  },
+  "scopes": {
+    "privatefunc": {},
+    "publicfunc": {},
+    "husky": {}
   }
 }
