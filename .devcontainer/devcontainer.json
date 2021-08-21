@@ -2,14 +2,30 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.1/containers/powershell
 {
 	"name": "PowerShell",
-	"dockerFile": "Dockerfile",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"NODE_VERSION": "lts/*"
+		}
+	},
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.defaultProfile.linux": "pwsh"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-vscode.powershell"
+		"aaron-bond.better-comments",
+		"coenraads.bracket-pair-colorizer-2",
+		"davidanson.vscode-markdownlint",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"github.remotehub",
+		"github.vscode-pull-request-github",
+		"ms-vscode.powershell",
+		"oderwat.indent-rainbow",
+		"pkief.material-icon-theme",
+		"streetsidesoftware.code-spell-checker",
+		"mikestead.dotenv"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
