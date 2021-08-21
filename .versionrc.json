@@ -7,8 +7,12 @@
     { "type": "docs", "hidden": true },
     { "type": "perf", "hidden": true },
     { "type": "refactor", "hidden": true },
+    { "type": "release", "hidden": true },
     { "type": "revert", "hidden": true },
     { "type": "style", "hidden": true },
     { "type": "test", "hidden": true }
-  ]
+  ],
+  "releaseCommitMessageFormat": "release({{currentTag}}): bump version",
+  "commitUrlFormat": "https://github.com/tonylea/PsModuleScaffolding/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/tonylea/PsModuleScaffolding/compare/{{previousTag}}...{{currentTag}}"
 }

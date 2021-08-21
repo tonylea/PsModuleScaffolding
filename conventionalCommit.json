@@ -21,6 +21,9 @@
     "refactor": {
       "description": "Changes which neither fix a bug nor add a feature"
     },
+    "release": {
+      "description": "Used by the pipeline to bump a version"
+    },
     "revert": {
       "description": "Changes which revert a previous commit"
     },
